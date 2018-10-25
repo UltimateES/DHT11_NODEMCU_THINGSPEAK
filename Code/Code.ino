@@ -21,7 +21,7 @@ void setup()
   Serial.begin(9600);
   Serial.println();
   Serial.println("Status\tHumidity (%)\tTemperature (C)\t(F)");
-  dht.setup(D0);   /* D1 is used for data communication */
+  dht.setup(D0);   /* D0 is used for data communication */
 }
 
 void loop()
